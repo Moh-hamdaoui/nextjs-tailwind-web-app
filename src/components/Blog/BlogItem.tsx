@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function BlogItem ({title, date, iconSrc}) {
+function BlogItem ({title, date, iconSrc}:any) {
   return (
     <div className="flex items-center border border-solid hover:border-[#a3c756] hover:shadow-lg bg-white rounded-2xl mb-4 shadow-sm w-full h-36 justify-between">
       <button className="w-72 h-36 bg-[#e6e6e6] rounded-l-2xl overflow-hidden flex items-center justify-center">
