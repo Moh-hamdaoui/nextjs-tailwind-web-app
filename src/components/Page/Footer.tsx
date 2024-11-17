@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <section className="bg-[#38394f]">
-            <div className="grid grid-cols-3 gap-28 py-11">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-28 py-11">
                 <div className="flex items-center justify-center ">
                     <svg className="w-7 h-auto mr-2" fill="#a3c756" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36.09 36.09">
                         <g>

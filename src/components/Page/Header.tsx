@@ -5,16 +5,12 @@ function Header() {
     return (
         <header className="w-full sticky top-0 z-50">
             <div className="bg-[#38394f]">
-                <ul className="flex flex-row justify-end px-10 py-2 space-x-8 text-[#c3c4c9]">
-                    <li>
-                        Francais
-                    </li>
-                    <li>
-                        $ Dollar
-                    </li>
+            <ul className="flex flex-col sm:flex-row sm:justify-end px-4 py-2 space-y-2 sm:space-y-0 sm:space-x-4 text-[#c3c4c9] text-center sm:text-right">
+                    <li>Francais</li>
+                    <li>$ Dollar</li>
                 </ul>
             </div>
-           <nav className="flex flex-row w-full bg-white shadow-sm">
+            <nav className="flex flex-row w-full bg-white shadow-sm">
                 <div className="flex flex-row items-center space-x-14 pl-7">
                     <img src="/images/motionseed-logo.png" className="py-3 w-35 h-auto"/>
                     <a

@@ -12,7 +12,6 @@ function Header() {
                     className="fe fe-trending-up text-info w-12 h-auto" viewBox="0 0 24 24" fill="none" stroke="#2caadb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="3 17 9 11 13 15 21 7"></polyline><polyline points="14 7 21 7 21 14"></polyline>
                 </svg>
             </div>
-
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-6 mb-16">
                 <button className="bg-white hover:shadow-lg hover:border-[#a3c756] rounded-2xl p-4 flex flex-col items-center border border-solid">
                     <img src="/images/Options et frais.png" className="w-full h-auto object-cover rounded-md mb-4"/>
