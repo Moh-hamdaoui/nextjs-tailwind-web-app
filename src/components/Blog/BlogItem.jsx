@@ -3,7 +3,7 @@ import React from "react";
 
 function BlogItem ({title, date, iconSrc}) {
   return (
-    <div className="flex items-center border border-solid hover:border-[#a3c756] hover:shadow-lg bg-white rounded-2xl mb-4 shadow-sm w-full h-auto lg:h-36 lg:w-full justify-between">
+    <div className="flex items-center border border-solid hover:border-[#a3c756] hover:shadow-lg bg-white rounded-2xl mb-4 shadow-sm w-40 h-auto lg:h-36 lg:w-full justify-between">
       <button className="w-full lg:w-72 h-auto lg:h-36 bg-[#e6e6e6] rounded-l-2xl overflow-hidden flex items-center justify-center">
         <Image src={iconSrc} alt={title} width={64} height={64} className="lg:w-auto w-16 h-16"/>
       </button>

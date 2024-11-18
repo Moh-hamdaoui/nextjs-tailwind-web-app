@@ -13,6 +13,13 @@ function Header() {
             <nav className="flex flex-row w-full bg-white shadow-sm ">
                 <div className="flex flex-row items-center space-x-14 pl-7">
                     <img src="/images/motionseed-logo.png" className="py-3 w-35 h-auto"/>
+                    <button className="lg:hidden flex flex-col space-y-1">
+                        <span className="block w-6 h-0.5 bg-[#5a5b75]"></span>
+                        <span className="block w-6 h-0.5 bg-[#5a5b75]"></span>
+                        <span className="block w-6 h-0.5 bg-[#5a5b75]"></span>
+                    </button>
+                </div>
+                <div className="hidden lg:flex flex-row items-center space-x-8 ml-auto pr-7">
                     <a
                     className="mt-2.6 text-custom-sm text-[#5a5b75] font-medium hover:text-[#a3c756] hidden sm:block"
                     href=""
@@ -23,7 +30,7 @@ function Header() {
                         Blog
                     </Link>
                 </div>
-                <div className="flex flex-row items-center ml-100 space-x-8">
+                <div className="flex flex-row items-center ml-100 mr-6 space-x-8">
                     <a href="" className="hidden sm:block">
                         <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" className="w-5 h-auto fill-current text-[#5a5b75] hover:text-[#a3c756] transition-colors duration-300">
                             <path d="M12.027 9.92L16 13.95 14 16l-4.075-3.976A6.465 6.465 0 0 1 6.5 13C2.91 13 0 10.083 0 6.5 0 2.91 2.917 0 6.5 0 10.09 0 13 2.917 13 6.5a6.463 6.463 0 0 1-.973 3.42zM1.997 6.452c0 2.48 2.014 4.5 4.5 4.5 2.48 0 4.5-2.015 4.5-4.5 0-2.48-2.015-4.5-4.5-4.5-2.48 0-4.5 2.014-4.5 4.5z"/>
