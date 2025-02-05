@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -29,6 +29,6 @@ jobs:
           playbook: ansible/playbook.yml
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           inventory: |
-            [web]
+            [webserver]
             13.60.29.47 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/id_rsa
           options: "-u ubuntu"
